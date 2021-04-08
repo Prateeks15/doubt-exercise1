@@ -1,0 +1,15 @@
+<div class="container">
+    <ul>
+        <li><a routerLink="listing">Listing Page</a></li>
+        <li><a routerLink="observable">Observable</a></li>
+    </ul>
+</div>
+<hr>
+
+<h2>Data From Child using view child</h2>
+<br>
+<strong>Name: </strong>  {{userInfo1.name}}
+<strong>Phone: </strong>  {{userInfo1.phone}}
+
+<app-child></app-child>
+<router-outlet></router-outlet>
